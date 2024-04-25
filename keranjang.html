@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="keranjang.css">
+        <title>Keranjang Belanja</title>
+    </head>
+    
+    <body>
+        <center>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="tentang.html">Tentang kami</a></li>
+                        <li><a href="index.html">Produk Kami</a></li>
+                        <li><a href="keranjang.html">Keranjang</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </center>
+
+    <div class="container">
+        <h1>Keranjang Belanja</h1>
+        <div class="product">
+            <img src="acnepakey.jpeg" alt="Produk 1">
+            <div class="details">
+                <h2>Anzora Acne</h2>
+                <p>Harga: Rp 230.000</p>
+            </div>
+        </div>
+        <div class="product">
+            <img src="glowpaket.jpeg" alt="Produk 2">
+            <div class="details">
+                <h2>Anzora Glow</h2>
+                <p>Harga: Rp 230.000</p>
+            </div>
+        </div>
+        <div class="total">
+            <p>Total Harga: Rp 460.000</p>
+        </div>
+        <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>
+    
+    <script>
+        function checkout() {
+            window.location.href = "payment.html";
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2023 Anzora Skincare. All rights reserved.</p>
+    </footer>
+</body>
+</html>

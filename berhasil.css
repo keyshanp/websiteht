@@ -1,0 +1,29 @@
+body{
+    font-family: Georgia, serif;
+    background: linear-gradient(to right, #FFD700, #FFA500);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.pembayaran-berhasil{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+.pembayaran-berhasil h1{
+    color: green;
+    margin-bottom: 20px;
+}
+.pembayaran-berhasil p{
+    margin-bottom: 10px;
+}
+.pembayaran-id{
+    font-weight: bold;
+    margin-top: 20px;
+}

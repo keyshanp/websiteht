@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" a href="payment.css">
+        <title>Pembayaran</title>
+    </head>
+        
+        <body>
+            <center>
+                <header>
+                    <nav>
+                        <ul>
+                            <li><a href="tentang.html">Tentang kami</a></li>
+                            <li><a href="index.html">Produk Kami</a></li>
+                            <li><a href="keranjang.html">Keranjang</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+            </center>
+            
+            <div class="container">
+                <form id="checkout-form" action="berhasil.html" method="post">
+                    <label for="name">Nama : </label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email : </label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="card-number">Kartu : </label>
+                    <input type="text" id="card-number" name="card-number" required>
+                    <label for="cvv">CVV : </label>
+                    <input type="text" id="cvv" name="cvv" required>
+                    <button type="submit">Selesai</button>
+                </form>
+            </div>
+            
+            <footer>
+                <p>&copy; 2023 Anzora Skincare. All rights reserved.</p>
+            </footer>
+        </body>
+</html>
